@@ -1,0 +1,92 @@
+body {
+  margin: 3rem;
+}
+
+.card {
+  width: 11rem;
+  height: 3rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 10px 0 3px 0;
+  background-color: cornsilk;
+}
+
+/* .card:last-of-type {
+  margin-bottom: 5px;
+} */
+
+.card-title {
+  color: white;
+  text-align: center;
+  margin-top: 1px;
+  background-color: burlywood;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.form-control-x {
+  outline-style: none;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-left: 6px;
+  margin-top: 2rem;
+}
+
+.my-btn {
+  display: inline-block;
+  width: 9.2rem;
+  height: 1.5rem;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: cornsilk;
+  cursor: pointer;
+  margin: -1px 2px 0 0;
+  user-select: none;
+}
+
+.form-class {
+  margin-top: 2rem;
+}
+
+.delete-btn {
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+  color: white;
+  font-size: 24px;
+  line-height: 18px;
+  text-align: center;
+  background-color: red;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 0 0 0;
+  margin: -2px 0 0 0;
+  user-select: none;
+}
+
+.completed-deleted {
+  display: table-row;
+  user-select: none;
+}
+
+.person {
+  width: 15rem;
+  padding: .2rem 1rem;
+  color: green;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.react-version {
+  margin-left: -1.5rem;
+  display: inline-block;
+  padding: .3rem 1rem;
+  background-color: cornsilk;
+  color: navy;
+  cursor: pointer;
+}

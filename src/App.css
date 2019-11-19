@@ -1,0 +1,98 @@
+body {
+  margin: 2rem 0 0 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.button {
+  width: 18rem;
+}
+
+.red-font {
+  color: red;
+  font-size: 24pt;
+  list-style-type: none;
+  margin-left: 5rem;
+}
+
+.counter,
+.currency,
+.title {
+  display: inline-block;
+  padding: .3rem 1.5rem;
+  color: rgb(59, 168, 59);
+  border: 1px solid gray;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.counter {
+  font-size: 18pt;
+}
+
+
+.currency-class0,
+.currency-class1 {
+  color: blue;
+  font-size: 14pt;
+}
+
+
+.currency-class1 {
+  color: red;
+}
+
+.clicked0,
+.clicked1 {
+  width: 10rem;
+  text-align: center;
+  padding: .2rem 1rem;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: blue;
+  font-size: 14pt;
+}
+
+.clicked1 {
+  color: red;
+}
+
+.reactVersion {
+  display: inline-block;
+  padding: .3rem 1rem;
+  background-color: aqua;
+  color: navy;
+  cursor: default;
+}
+
+.incrementButton {
+  display: inline-block;
+  padding: .2rem 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(245, 239, 239);
+  cursor: pointer;
+  user-select: none;
+}
