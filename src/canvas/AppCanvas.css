@@ -1,0 +1,164 @@
+.canvas1,
+.canvas2,
+.canvas3,
+.canvas4,
+.canvas5 {
+
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid gray;
+
+}
+
+.canvas2 {
+	z-index: 2;
+}
+
+.canvas3 {
+	z-index: 3;
+}
+
+.canvas4 {
+	z-index: 4;
+}
+
+.canvas5 {
+	z-index: 5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.marko-font {
+	color: #6e726e;
+}
+
+.container {
+	position: relative;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
+}
+
+#tooltip {
+	position: absolute;
+	top: 150;
+	left: 150;
+	padding: .3rem 1rem;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	background-color: navy;
+	border-radius: 6px;
+	opacity: 0;
+	z-index: 4;
+}
+
+.red {
+	background-color: red;
+}
+
+#pointsList,
+#funcExpression {
+	width: 85vh;
+	font-family: monospace;
+	font-size: 1.2rem;
+	padding: 3px 1rem;
+	background-color: aliceblue;
+}
+
+.p-title {
+	padding: 0;
+	margin: 0
+}
+
+.grid-container {
+	display: grid;
+	opacity: 0;
+	grid-gap: 10px;
+	background-color: rgb(184, 213, 236);
+	padding: 10px;
+}
+
+.grid-container>div {
+
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 10px 0;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+/* adjust GRID_COLUMNS to 8 = 9-1 for first row, i.e. header*/
+.header {
+	grid-column: 1 / 11;
+}
+
+.commands {
+	position: absolute;
+	left: 0;
+	top: 500px;
+}
+
+.commanda {
+	position: absolute;
+	left: 0px;
+	margin-top: 1rem;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	/* -moz-appearance: none; */
+	appearance: none;
+
+	/* Styling checkbox */
+	width: 16px;
+	height: 16px;
+	margin: 0 6px -3px 0;
+	background-color: gray;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+	background-color: yellow;
+}
+
+.line-equation {
+	padding: 2px 0 2px 1rem;
+}
+
+.student-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 1rem;
+	margin: 12px 0 0 2.5rem;
+	z-index: 26;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 13pt;
+	font-style: italic;
+	color: green;
+	box-shadow: 0 4px 15px green;
+	cursor: pointer;
+}
+
+.mia {
+	color: rgb(247, 86, 86);
+	box-shadow: 0 4px 15px red;
+}
+
+/* grid-template-column: 1fr 1fr 1fr 1fr;
+grid-template-rows: auto auto auto auto auto auto auto auto; */

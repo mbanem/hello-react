@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './TodoApp';
+// import App from './TodoApp';
 // import App from './App';
+import App from './canvas/AppCanvas';
 
 import * as serviceWorker from './serviceWorker';
 
